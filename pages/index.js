@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Image from 'next/image'
-import {SearchIcon, MicrophoneIcon} from '@heroicons/react/solid'
+import { SearchIcon, MicrophoneIcon } from '@heroicons/react/solid';
 import Footer from '../components/Footer';
 import { useRouter } from "next/router";
 import { useRef } from "react";
