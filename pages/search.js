@@ -5,11 +5,11 @@ import Response from '../Response';
 import { useRouter } from 'next/router';
 
 export default function search({ results }) {
-  const router = useRouter();
+  //const router = useRouter();
   return (
     <div>
       <Head>
-        <title>{router.query.term}</title>
+        <title>{useRouter.query.term}</title>
       </Head>
 
       {/* Search Header */}
